@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "web-automation"
-version = "1.0.0"
+version = "1.0.1"
 description = "Framework built on top of Selenium framework for easy setup and config"
 readme = "README.md"
 authors = [{ name="The Bored Genius", email="th3b0redgenius@gmail.com" }]

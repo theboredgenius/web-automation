@@ -237,7 +237,15 @@ class Framework(ABC):
         """
         self.driver.get(url)
 
-    def wait(self, wait_time=0):
+    def wait(self, wait_time: int = 0):
+        """
+        Wait for the mentioned amount of time
+
+        :param wait_time: waiting time (in seconds)
+        :type wait_time: int
+        :return: None
+        :rtype: None
+        """
         time.sleep(wait_time)
 
     def __del__(self):
